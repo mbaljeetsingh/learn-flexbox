@@ -17,30 +17,48 @@ h1, h2 {
   justify-content: flex-start;
   /* align-items corresponds to cross axis (vertical in this case) */
   align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 .child1 {
+  /* 
+  1. flex: {grow} {shirk} {basis} 
+  2. flex-grow: 1, flex-shrink: 1, flex-basis: 200px;
+  3. flex: 1 1 200px;
+     2 === 3
+  */
+  flex: 1 1 200px;
+  order:0;
   height: 50px;
-  width: 50px;
+  /* width: 50px; */
   background-color: #1939B7;
 }
 .child2 {
+  flex: 1 1 200px;
+  order:1;
   height: 50px;
-  width: 50px;
+  /* width: 50px; */
   background-color: #2D961B;
 }
 .child3 {
+  flex: 1 1 200px;
+  order:0;
   height: 50px;
-  width: 50px;
+  /* width: 50px; */
   background-color: #007B87;
 }
 .child4 {
+  flex: 1 1 200px;
+  order:0;
   height: 50px;
-  width: 50px;
+  /* width: 50px; */
   background-color: #BF7F00;
 }
 .child5 {
+  flex: 1 1 200px;
+  order:0;
   height: 50px;
-  width: 50px;
+  /* width: 50px; */
   background-color: #9E2A16;
 }
