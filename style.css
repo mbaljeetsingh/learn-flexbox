@@ -1,0 +1,36 @@
+h1, h2 {
+  font-family: Lato;
+}
+
+.parent {
+  height: 80vh;
+  width: 90vw;
+  border: 5px solid black;
+  color: #ffffff;
+}
+
+.child1 {
+  height: 50px;
+  width: 50px;
+  background-color: #1939B7;
+}
+.child2 {
+  height: 50px;
+  width: 50px;
+  background-color: #2D961B;
+}
+.child3 {
+  height: 50px;
+  width: 50px;
+  background-color: #007B87;
+}
+.child4 {
+  height: 50px;
+  width: 50px;
+  background-color: #BF7F00;
+}
+.child5 {
+  height: 50px;
+  width: 50px;
+  background-color: #9E2A16;
+}
