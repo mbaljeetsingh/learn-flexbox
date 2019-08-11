@@ -7,6 +7,16 @@ h1, h2 {
   width: 90vw;
   border: 5px solid black;
   color: #ffffff;
+  /* 1. dispaly: flex makes flex-direction as row 
+  2. Now main-axis is horizontal 
+  and cross-axis is vertical */
+  display: flex; 
+  /* 1. flex-direction: row is default, so not required */
+  flex-direction: row;
+  /* justify-content corresponds to main axis (horizontal in this case) */
+  justify-content: flex-start;
+  /* align-items corresponds to cross axis (vertical in this case) */
+  align-items: flex-start;
 }
 
 .child1 {
